@@ -1,0 +1,477 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaDashboardProperties",
+      "name": "eureka.dashboard",
+      "type": "org.springframework.cloud.netflix.eureka.server.EurekaDashboardProperties"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.InstanceRegistryProperties",
+      "name": "eureka.instance.registry",
+      "type": "org.springframework.cloud.netflix.eureka.server.InstanceRegistryProperties"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server",
+      "type": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaDashboardProperties",
+      "defaultValue": true,
+      "name": "eureka.dashboard.enabled",
+      "description": "Flag to enable the Eureka dashboard. Default true.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaDashboardProperties",
+      "defaultValue": "\/",
+      "name": "eureka.dashboard.path",
+      "description": "The path to the Eureka dashboard (relative to the servlet path). Defaults to \"\/\".",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.InstanceRegistryProperties",
+      "defaultValue": 1,
+      "name": "eureka.instance.registry.default-open-for-traffic-count",
+      "description": "Value used in determining when leases are cancelled, default to 1 for standalone.\n Should be set to 0 for peer replicated eurekas",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.InstanceRegistryProperties",
+      "defaultValue": 1,
+      "name": "eureka.instance.registry.expected-number-of-renews-per-min",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.a-s-g-cache-expiry-timeout-ms",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 300,
+      "name": "eureka.server.a-s-g-query-timeout-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.a-s-g-update-interval-ms",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.a-w-s-access-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.a-w-s-secret-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": false,
+      "name": "eureka.server.batch-replication",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.binding-strategy",
+      "type": "com.netflix.eureka.aws.AwsBindingStrategy"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.delta-retention-timer-interval-in-ms",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": false,
+      "name": "eureka.server.disable-delta",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": false,
+      "name": "eureka.server.disable-delta-for-remote-regions",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": false,
+      "name": "eureka.server.disable-transparent-fallback-to-other-region",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 3,
+      "name": "eureka.server.e-i-p-bind-rebind-retries",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.e-i-p-binding-retry-interval-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.e-i-p-binding-retry-interval-ms-when-unbound",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": false,
+      "name": "eureka.server.enable-replicated-request-compression",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": true,
+      "name": "eureka.server.enable-self-preservation",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.eviction-interval-timer-in-ms",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": true,
+      "name": "eureka.server.g-zip-content-from-remote-region",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.json-codec-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": "ListAutoScalingGroups",
+      "name": "eureka.server.list-auto-scaling-groups-role-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": true,
+      "name": "eureka.server.log-identity-headers",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 10000,
+      "name": "eureka.server.max-elements-in-peer-replication-pool",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 10000,
+      "name": "eureka.server.max-elements-in-status-replication-pool",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 15,
+      "name": "eureka.server.max-idle-thread-age-in-minutes-for-peer-replication",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 10,
+      "name": "eureka.server.max-idle-thread-in-minutes-age-for-status-replication",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 20,
+      "name": "eureka.server.max-threads-for-peer-replication",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 1,
+      "name": "eureka.server.max-threads-for-status-replication",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 30000,
+      "name": "eureka.server.max-time-for-replication",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": -1,
+      "name": "eureka.server.min-available-instances-for-peer-replication",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 5,
+      "name": "eureka.server.min-threads-for-peer-replication",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 1,
+      "name": "eureka.server.min-threads-for-status-replication",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 5,
+      "name": "eureka.server.number-of-replication-retries",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.peer-eureka-nodes-update-interval-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.peer-eureka-status-refresh-time-interval-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 200,
+      "name": "eureka.server.peer-node-connect-timeout-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 30,
+      "name": "eureka.server.peer-node-connection-idle-timeout-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 200,
+      "name": "eureka.server.peer-node-read-timeout-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 1000,
+      "name": "eureka.server.peer-node-total-connections",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 500,
+      "name": "eureka.server.peer-node-total-connections-per-host",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": true,
+      "name": "eureka.server.prime-aws-replica-connections",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.property-resolver",
+      "type": "org.springframework.core.env.PropertyResolver"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 10,
+      "name": "eureka.server.rate-limiter-burst-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": false,
+      "name": "eureka.server.rate-limiter-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 100,
+      "name": "eureka.server.rate-limiter-full-fetch-average-rate",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.rate-limiter-privileged-clients",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 500,
+      "name": "eureka.server.rate-limiter-registry-fetch-average-rate",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": false,
+      "name": "eureka.server.rate-limiter-throttle-standard-clients",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.registry-sync-retries",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.registry-sync-retry-wait-ms",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.remote-region-app-whitelist",
+      "type": "java.util.Map<java.lang.String,java.util.Set<java.lang.String>>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 1000,
+      "name": "eureka.server.remote-region-connect-timeout-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 30,
+      "name": "eureka.server.remote-region-connection-idle-timeout-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 20,
+      "name": "eureka.server.remote-region-fetch-thread-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 1000,
+      "name": "eureka.server.remote-region-read-timeout-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 30,
+      "name": "eureka.server.remote-region-registry-fetch-interval",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 1000,
+      "name": "eureka.server.remote-region-total-connections",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 500,
+      "name": "eureka.server.remote-region-total-connections-per-host",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": "",
+      "name": "eureka.server.remote-region-trust-store",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": "changeit",
+      "name": "eureka.server.remote-region-trust-store-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.remote-region-urls",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.remote-region-urls-with-name",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0.85,
+      "name": "eureka.server.renewal-percent-threshold",
+      "type": "java.lang.Double"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.renewal-threshold-update-interval-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 180,
+      "name": "eureka.server.response-cache-auto-expiration-in-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.response-cache-update-interval-ms",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.retention-time-in-m-s-in-delta-queue",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 3,
+      "name": "eureka.server.route53-bind-rebind-retries",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.route53-binding-retry-interval-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 30,
+      "name": "eureka.server.route53-domain-t-t-l",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": true,
+      "name": "eureka.server.sync-when-timestamp-differs",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": true,
+      "name": "eureka.server.use-read-only-response-cache",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "defaultValue": 0,
+      "name": "eureka.server.wait-time-in-ms-when-sync-empty",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.eureka.server.EurekaServerConfigBean",
+      "name": "eureka.server.xml-codec-name",
+      "type": "java.lang.String"
+    }
+  ]
+}
