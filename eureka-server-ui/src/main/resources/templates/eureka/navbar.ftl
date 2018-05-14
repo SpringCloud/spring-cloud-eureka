@@ -1,4 +1,4 @@
-<h1>拒绝广告-纯粹公益-Eureka Server!</h1>
+<h1>纯公益-Eureka Server!</h1>
 <div class="row">
     <div class="col-md-6">
         <div style="margin-left: 30px;margin-top: 20px;">
