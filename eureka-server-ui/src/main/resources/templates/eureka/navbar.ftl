@@ -1,8 +1,8 @@
-<h1>Server Manual</h1>
+<h1>拒绝广告-纯粹公益-Eureka Server!</h1>
 <div class="row">
     <div class="col-md-6">
         <div style="margin-left: 30px;margin-top: 20px;">
-            <h3>接入方法</h3>
+            <h3>公益-Eureka Server注册中心</h3>
             <p>
                 在Spring Cloud应用的配置文件中，设置Eureka Server的地址为：
                 <span style="font-weight: bold;">eureka.client.serviceUrl.defaultZone=http://eureka.springcloud.cn/eureka/</span>
@@ -10,9 +10,8 @@
             <br>
             <h3>注意事项</h3>
             <div style="color:red;">
-                <li>本Eureka Server为公益项目，仅作为一个帮助Spring Cloud的开发者进行学习和调试开发使用的平台</li>
-                <li>本应用可能存在运行不稳定而重启等风险，请勿将该注册中心使用到您的生产配置中</li>
-                <li>为了保障大家使用的顺畅，请勿对本注册中心进行压力测试</li>
+                <li>本Eureka Server为公益注册中心，仅作为帮助Spring Cloud的开发者进行学习和调试</li>
+                <li>为了更好服务大家，请勿对本注册中心进行压测</li>
             </div>
         </div>
     </div>
@@ -21,12 +20,12 @@
         <div>
             <p>在学习与使用过程中遇到困难，就来<a href="http://springcloud.cn" target="_blank">Spring Cloud中国社区</a>与我们一起探讨交流吧。</p>
             <br>
-            <li>我们致力于成为中国最专业的Spring Boot或Spring Cloud交流社区!</li>
+            <li>Spring Cloud中国社区(http://springcloud.cn),我们致力于成为中国最专业最权威Spring Boot和Spring Cloud交流社区!</li>
             <li>【Spring Cloud中国QQ群①:415028731(已满）】</li>
             <li>【Spring Cloud中国QQ群②:530321604(已满）】</li>
             <li>【Spring Cloud中国QQ群③:643970587(未满）】</li>
             <li>【Spring Cloud中国QQ群④:643970587(未满）】</li>
-            <li>加社区发起人微信Software_King，拉入Spring Cloud中国社区微信群</li>
+            <li>加微信Software_King，可以拉入Spring Cloud中国社区微信群</li>
         </div>
     </div>
 </div>

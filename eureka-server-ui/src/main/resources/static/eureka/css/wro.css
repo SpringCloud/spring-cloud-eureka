@@ -6251,9 +6251,7 @@ strong {
   -o-transition: all 0.15s;
   -ms-transition: all 0.15s;
 }
-.navbar li > a {
-  text-transform: uppercase;
-}
+
 .navbar .navbar-text {
   margin-top: 0;
   margin-bottom: 0;
