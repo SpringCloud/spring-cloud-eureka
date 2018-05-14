@@ -13,7 +13,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="http://springcloud.cn>">Spring Cloud中国社区</a>
+          <a href="http://springcloud.cn">Spring Cloud中国社区</a>
         </li>
         <li>
           <a href="http://springcloud.cn/view/250">如何定制一个Eureka Server?</a>
