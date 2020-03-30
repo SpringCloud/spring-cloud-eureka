@@ -10,9 +10,8 @@
 
 	<parent>
 		<groupId>cn.springcloud.eureka</groupId>
-		<artifactId>eureka-server-parent</artifactId>
+		<artifactId>spring-cloud-eureka</artifactId>
 		<version>1.0.0</version>
-		<relativePath>./..</relativePath> <!-- lookup parent from repository -->
 	</parent>
 
 	<dependencies>

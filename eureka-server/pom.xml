@@ -10,10 +10,14 @@
 
 	<parent>
 		<groupId>cn.springcloud.eureka</groupId>
-		<artifactId>eureka-server-parent</artifactId>
+		<artifactId>spring-cloud-eureka</artifactId>
 		<version>1.0.0</version>
-		<relativePath>./..</relativePath> <!-- lookup parent from repository -->
 	</parent>
+
+	<properties>
+		<start-class>cn.springcloud.eureka.EurekaServerApplication</start-class>
+	</properties>
+
 
 	<dependencies>
 
@@ -33,8 +37,21 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>${start-class}</mainClass>
+					<executable>true</executable>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+							<goal>build-info</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
